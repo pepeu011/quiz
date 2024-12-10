@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz para minha namorada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz: Quanto você me conhece?</h1>
+            <p>Responda com sinceridade ❤️</p>
+        </header>
+
+        <main>
+            <form class="quiz-form">
+                <!-- Pergunta 1 -->
+                <div class="question">
+                    <h2>1. Qual é a minha cor favorita?</h2>
+                    <label>
+                        <input type="radio" name="q1" value="vermelho">
+                        Vermelho
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q1" value="azul">
+                        Azul
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q1" value="preto">
+                        Preto
+                    </label>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="question">
+                    <h2>2. Qual foi o nosso primeiro encontro?</h2>
+                    <label>
+                        <input type="radio" name="q2" value="cinema">
+                        Cinema
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q2" value="restaurante">
+                        Restaurante
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q2" value="parque">
+                        Hamburgueria
+                    </label>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="question">
+                    <h2>3. O que eu mais gosto em você?</h2>
+                    <label>
+                        <input type="radio" name="q3" value="sorriso">
+                        Seu sorriso
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q3" value="cuidado">
+                        Seu cuidado
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q3" value="tudo">
+                        Tudo ❤️
+                    </label>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div class="question">
+                    <h2>4. O que eu prefiro fazer em um dia livre?</h2>
+                    <label>
+                        <input type="radio" name="q4" value="dormir">
+                        Dormir até tarde
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q4" value="ver-series">
+                        Assistir séries/filmes
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q4" value="sair">
+                        Ficar com você ❤️
+                    </label>
+                </div>
+
+                <!-- Pergunta 5 -->
+                <div class="question">
+                    <h2>5. Qual é o meu maior sonho?</h2>
+                    <label>
+                        <input type="radio" name="q5" value="viajar">
+                        Viajar pelo mundo
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q5" value="familia">
+                        Construir uma família
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q5" value="carreira">
+                        Alcançar sucesso na carreira
+                    </label>
+                </div>
+
+                <!-- Pergunta 6 -->
+                <div class="question">
+                    <h2>6. Qual é a minha comida favorita?</h2>
+                    <label>
+                        <input type="radio" name="q6" value="pizza">
+                        Pizza
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q6" value="churrasco">
+                        Churrasco
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q6" value="sushi">
+                        Sushi
+                    </label>
+                </div>
+
+                <!-- Pergunta 7 -->
+                <div class="question">
+                    <h2>7. Onde eu gostaria de viajar com você?</h2>
+                    <label>
+                        <input type="radio" name="q7" value="praia">
+                        Natal
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q7" value="montanha">
+                        Paraná
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q7" value="cidade">
+                        Vários lugares pelo mundo
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </main>
+    </div>
+
+    <script>
+        document.querySelector('.quiz-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+    
+            alert("Espero que esteja certo as respostas. Eu te amo meu amor💜");
+        });
+    </script>    
+</body>
+</html>
